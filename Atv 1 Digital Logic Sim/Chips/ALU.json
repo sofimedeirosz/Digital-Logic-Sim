@@ -1,0 +1,195 @@
+{
+  "Name": "ALU",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.575,
+    "y": 2.75
+  },
+  "Colour": {
+    "r": 0.220132649,
+    "g": 0.153716832,
+    "b": 0.258069456,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"C1",
+      "ID":1830258876,
+      "Position":{
+        "x":-24.81161,
+        "y":0.19374
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"C2",
+      "ID":1673871856,
+      "Position":{
+        "x":-24.81161,
+        "y":-0.32127
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"C3",
+      "ID":1000548089,
+      "Position":{
+        "x":-24.81161,
+        "y":-0.83627
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"IN",
+      "ID":1594621617,
+      "Position":{
+        "x":-24.79289,
+        "y":-4.99922
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"IN",
+      "ID":1553366958,
+      "Position":{
+        "x":-24.79574,
+        "y":-6.22647
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":245849022,
+      "Position":{
+        "x":4.99663,
+        "y":-0.63431
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":792116790,
+      "Position":{
+        "x":4.93389,
+        "y":-6.09263
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"4-BIT ADDER",
+      "ID":351430271,
+      "Label":"",
+      "Position":{
+        "x":-7.34064,
+        "y":-0.85146
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":619312821},{"PinColour":0,"PinID":1423748415}],
+      "InternalData":null
+    },
+    {
+      "Name":"4-BIT MUX",
+      "ID":2063215360,
+      "Label":"",
+      "Position":{
+        "x":1.60301,
+        "y":-3.30073
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":404385258},{"PinColour":0,"PinID":1076399611}],
+      "InternalData":null
+    },
+    {
+      "Name":"4- BIT SUBTRACTOR",
+      "ID":1291200396,
+      "Label":"",
+      "Position":{
+        "x":-7.38469,
+        "y":-3.26729
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":819535333},{"PinColour":0,"PinID":108334390}],
+      "InternalData":null
+    },
+    {
+      "Name":"AND BITWISE",
+      "ID":901633771,
+      "Label":"",
+      "Position":{
+        "x":-7.38469,
+        "y":-5.0164
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1417235214}],
+      "InternalData":null
+    },
+    {
+      "Name":"OR BITWISE",
+      "ID":1773931183,
+      "Label":"",
+      "Position":{
+        "x":-7.36972,
+        "y":-6.01973
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":945090989}],
+      "InternalData":null
+    },
+    {
+      "Name":"XOR BITWISE",
+      "ID":831376354,
+      "Label":"",
+      "Position":{
+        "x":-7.3759,
+        "y":-7.0697
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":488603736}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":404385258,
+        "PinOwnerID":2063215360
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":245849022
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1076399611,
+        "PinOwnerID":2063215360
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":792116790
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}

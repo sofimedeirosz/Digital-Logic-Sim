@@ -1,0 +1,122 @@
+{
+  "Name": "2-BITS",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.025,
+    "y": 1.0
+  },
+  "Colour": {
+    "r": 0.783307433,
+    "g": 0.6392946,
+    "b": 0.3027486,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"A",
+      "ID":246904255,
+      "Position":{
+        "x":-5.94354,
+        "y":2.72451
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B",
+      "ID":1053597166,
+      "Position":{
+        "x":-5.92475,
+        "y":2.09482
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"A",
+      "ID":1987606526,
+      "Position":{
+        "x":-5.99994,
+        "y":-0.08559
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"B",
+      "ID":2132993445,
+      "Position":{
+        "x":-5.98114,
+        "y":-0.71528
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"SUM",
+      "ID":1886455549,
+      "Position":{
+        "x":3.29501,
+        "y":2.48955
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"SUM",
+      "ID":204354549,
+      "Position":{
+        "x":3.30441,
+        "y":1.85046
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"CARRY OUT",
+      "ID":1948226370,
+      "Position":{
+        "x":3.44044,
+        "y":-0.50528
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"HALF ADDER",
+      "ID":978004770,
+      "Label":"",
+      "Position":{
+        "x":-1.09145,
+        "y":2.40174
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1841507657},{"PinColour":0,"PinID":2130575016}],
+      "InternalData":null
+    },
+    {
+      "Name":"FULL ADDER",
+      "ID":990086716,
+      "Label":"",
+      "Position":{
+        "x":-1.1417,
+        "y":0.54273
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1117633622},{"PinColour":0,"PinID":684834628}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null
+}
